@@ -1,0 +1,53 @@
+.main {
+    color: white;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+body {
+    margin: 0px;
+}
+
+.slogan {
+    border-right: solid 3px rgba(0,255,0,.5);
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: "Raleway", sans-serif;
+    font-size: 60px;
+}
+
+/* Animation */
+.slogan {
+    margin-top: 10%;
+    animation:  animated-text 1s steps(100,end) 1s 1 normal both,
+                animated-cursor 600ms steps(100,end) infinite;
+}
+
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 870px}
+}
+
+/* type writer cursor animation */
+@keyframes animated-cursor{
+    from{border-right-color: rgba(0,255,0,.5);}
+    to{border-right-color: transparent;}
+}
+
+.cyan {
+    display: inline-block;
+    color: #4df4d4;
+}
+
+.red {
+    display: inline-block;
+    color: red;
+}
+
+.footer {
+    font-family: "Raleway", sans-serif;
+	align-items: center;
+    padding: 40px;
+    margin-bottom: 0px;
+	background-color: rgb(37, 37, 37);
+}

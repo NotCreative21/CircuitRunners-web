@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Circuit Runner",
+  "name": "Circuit Runners",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +8,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "404x188"
     },
     {
-      "src": "logo512.png",
+      "src": "logo_wide.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "1192x188"
     }
   ],
   "start_url": ".",
