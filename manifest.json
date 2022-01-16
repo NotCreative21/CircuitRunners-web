@@ -1,0 +1,25 @@
+{
+  "short_name": "Circuit Runner",
+  "name": "Circuit Runners",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "404x188"
+    },
+    {
+      "src": "logo_wide.png",
+      "type": "image/png",
+      "sizes": "1192x188"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

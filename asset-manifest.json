@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CircuitRunners-web/static/css/main.26aadbdd.css",
+    "main.js": "/CircuitRunners-web/static/js/main.f654c067.js",
+    "index.html": "/CircuitRunners-web/index.html",
+    "main.26aadbdd.css.map": "/CircuitRunners-web/static/css/main.26aadbdd.css.map",
+    "main.f654c067.js.map": "/CircuitRunners-web/static/js/main.f654c067.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26aadbdd.css",
+    "static/js/main.f654c067.js"
+  ]
+}
