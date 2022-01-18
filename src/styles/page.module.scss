@@ -16,13 +16,14 @@ body {
 .slogan {
     border-right: solid 3px rgba(0,255,0,.5);
     white-space: nowrap;
-    overflow: hidden;    
+    overflow: hidden;   
     font-size: 60px;
+    position: relative;
 }
 
 /* Animation */
 .slogan {
-    margin-top: 10%;
+    margin: -33vh;
     animation:  animated-text 1s steps(100,end) 1s 1 normal both,
                 animated-cursor 600ms steps(100,end) infinite;
 }
@@ -49,12 +50,14 @@ body {
 }
 
 .container {
+    transform: translateY(33vh);
     overflow: hidden;
 }
 
 .hidden {
     font-size: 24px;
     font-weight: bold;
+    position: relative;
     animation: unhide 1s steps(100, end) 1500ms 1 normal both;
 }
 
@@ -70,12 +73,21 @@ body {
 }
 
 .slides {
-    height: 30vh;
+    height: 60vh;
 }
 
 .text {
     background-color: rgb(8, 8, 8);
     padding-top: 40px;
-    padding-bottom: 16%;
+    padding-bottom: 3%;
     width: 100%;
+}
+
+.homeText {
+    text-align: left;
+    max-width: 870px;
+}
+
+.slideshow {
+    opacity: 0.5;
 }

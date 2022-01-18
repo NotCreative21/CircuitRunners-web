@@ -4,9 +4,11 @@ import "../index.css";
 export function About() {
     return(
         <main>
-            <p>
-                about
-            </p>
+            <center>
+                <p>
+                    about
+                </p>
+            </center>
         </main>
     );
 }
