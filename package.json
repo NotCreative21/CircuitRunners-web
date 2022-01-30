@@ -1,6 +1,6 @@
 {
-  "name": "cr-example",
-  "homepage": "https://notcreative21.github.io",
+  "name": "CircuitRunners-web",
+  "homepage": "https://notcreative21.github.io/CircuitRunners-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

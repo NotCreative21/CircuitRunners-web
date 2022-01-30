@@ -21,7 +21,6 @@ body {
     position: relative;
 }
 
-/* Animation */
 .slogan {
     margin: -33vh;
     animation:  animated-text 1s steps(100,end) 1s 1 normal both,
@@ -33,7 +32,6 @@ body {
     to{width: 870px}
 }
 
-/* type writer cursor animation */
 @keyframes animated-cursor{
     from{border-right-color: gray;}
     to{border-right-color: transparent;}

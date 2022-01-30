@@ -4,13 +4,13 @@ import '../styles/slideshow.css';
 
 const slideImages = [
   {
-    url: '/1.png',
+    url: './1.png',
   },
   {
-    url: '/2.png',
+    url: './2.png',
   },
   {
-    url: '/3.png',
+    url: './3.png',
   },
 ];
 
@@ -20,7 +20,7 @@ const Slideshow = () => {
         <Slide>
          {slideImages.map((slideImage, index)=> (
             <div className="each-slide" key={index}>
-              <div style={{'backgroundImage': `url(${slideImage.url});`}}>
+              <div style={{'backgroundImage': `url(${slideImage.url})`}}>
               </div>
             </div>
           ))} 
