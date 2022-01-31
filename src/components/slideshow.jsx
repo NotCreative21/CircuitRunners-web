@@ -1,6 +1,6 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
-import '../styles/slideshow.css';
+import styles from '../styles/components.module.scss';
 
 const slideImages = [
   {
@@ -19,7 +19,7 @@ const Slideshow = () => {
       <div className="slide-container">
         <Slide>
          {slideImages.map((slideImage, index)=> (
-            <div className="each-slide" key={index}>
+            <div className={styles.eachSlide} key={index}>
               <div style={{'backgroundImage': `url(${slideImage.url})`}}>
               </div>
             </div>
