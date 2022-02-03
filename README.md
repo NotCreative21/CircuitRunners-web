@@ -25,5 +25,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ### Future additions
 
 * migrate to tailwind css for higher consistency
-* switch code to typescript
 * migrate to nextjs

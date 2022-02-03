@@ -1,19 +1,21 @@
 import React from "react";
-import "../index.css";
-import styles from "../styles/page.module.scss";
+import "../styles/index.scss";
+// @ts-expect-error
+import styles from "../styles/components.module.scss";
 import Slideshow from "./slideshow";
 import 'react-slideshow-image/dist/styles.css'
 
 export function Home() {
     return (
         <div className={styles.main}>
-            <center>
                 <div className={styles.slides}>  
                     <div className={styles.slideshow}>  
                         <Slideshow />
                     </div>
-                    <div className={styles.slogan}>
-                        FROM <div className={styles.cyan}>POTENTIAL</div> TO <div className={styles.red}>KINETIC</div>
+                    <div className={styles.center}>  
+                        <div className={styles.slogan}>
+                            FROM <div className={styles.cyan}>POTENTIAL</div> TO <div className={styles.red}>KINETIC</div>
+                        </div>
                     </div>
                     <div className={styles.container}>
                         <div className={styles.hidden}>
@@ -46,7 +48,6 @@ export function Home() {
                 <div className="footer">
                     © 2021 CircuitRunners Robotics Inc.
                 </div>
-            </center>
             </div>
     );
 }

@@ -1,11 +1,11 @@
 import React from "react";
-import "../index.css";
+import "../styles/index.scss";
 
-export function Support() {
+export function Brand() {
     return(
         <main>
             <p>
-                support
+                brand
             </p>
         </main>
     );

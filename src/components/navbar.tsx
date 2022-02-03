@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// @ts-expect-error
 import styles from "../styles/components.module.scss";
 
 export function Navbar() {

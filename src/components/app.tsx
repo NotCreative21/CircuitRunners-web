@@ -1,7 +1,5 @@
-import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from "./navbar";
-import ReactDOM from "react-dom";
 //
 import { Home } 		from "./home";
 import { About } 		from "./about";
@@ -22,4 +20,5 @@ function App() {
 	</>);
 }
 
-ReactDOM.render(<App/>, document.getElementById("root"));
+//ReactDOM.render(<App/>, document.getElementById("root"));
+export default App;

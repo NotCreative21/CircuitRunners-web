@@ -1,14 +1,11 @@
-import React from "react";
-import "../index.css";
+import "../styles/index.scss";
 
 export function About() {
     return(
         <main>
-            <center>
                 <p>
                     about
                 </p>
-            </center>
         </main>
     );
 }
