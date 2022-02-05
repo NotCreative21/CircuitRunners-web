@@ -5,13 +5,13 @@ import styles from '../styles/components.module.scss';
 
 const slideImages = [
   {
-    url: 'https://github.com/NotCreative21/CircuitRunners-web/blob/gh-pages/1.png?raw=true',
+    url: '/slides/slide1.png',
   },
   {
-    url: 'https://github.com/NotCreative21/CircuitRunners-web/blob/gh-pages/2.png?raw=true',
+    url: '/slides/slide2.png',
   },
   {
-    url: 'https://github.com/NotCreative21/CircuitRunners-web/blob/gh-pages/3.png?raw=true',
+    url: '/slides/slide3.png',
   },
 ];
 

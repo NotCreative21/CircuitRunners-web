@@ -4,7 +4,7 @@ import { Navbar } from "./navbar";
 import { Home } 		from "./home";
 import { About } 		from "./about";
 import { Brand } 		from "./brand";
-import { Support } 		from "./support";
+import { Sponsors } 	from "./sponsors";
 
 function App() {
 	return (<>
@@ -14,7 +14,7 @@ function App() {
 				<Route path="/"      		element={<Home 		/>}/>
 				<Route path="/about" 		element={<About 	/>}/>
 				<Route path="/Brand" 		element={<Brand 	/>}/>
-				<Route path="/Support" 	    element={<Support 	/>}/>
+				<Route path="/Sponsors" 	element={<Sponsors 	/>}/>
 			</Routes>
 		</BrowserRouter>
 	</>);

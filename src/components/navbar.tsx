@@ -11,7 +11,7 @@ export function Navbar() {
             <Link to="/">           HOME        </Link>
             <Link to="/about">      ABOUT       </Link>
             <Link to="/brand">      BRAND       </Link>
-            <Link to="/support">    SUPPORT     </Link>
+            <Link to="/sponsors">   SPONSORS    </Link>
         </div>
     );
 }
