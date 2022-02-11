@@ -9,8 +9,8 @@ export function Sponsors() {
                 <h1>SPONSORS</h1>
             </div>
             <div className={styles.dividerParent}> 
-                <img src="/scrimmage.jpg" className={styles.photos} alt="testing the bot"/>
-                <img src="/work.jpg" className={styles.photos} alt="in the work space"/>
+                <img src="./scrimmage.jpg" className={styles.photos} alt=""/>
+                <img src="./work.jpg" className={styles.photos} alt=""/>
             </div>
             <div className={styles.bodyStrap}>
                 <p>
@@ -20,13 +20,13 @@ export function Sponsors() {
             </div>
             <div className={styles.sponsors}>
                 <div className={styles.sponsor1}>
-                    <img src="/FoundationLogo.png" />
+                    <img src="./FoundationLogo.png" alt="" />
                     <span></span>
                     <p>The Wheeler Magnet Foundation has provided a location for our 3 competition teams to work and has been a staple sponsor of CicuitRunners Robotics since our rookie year in 2002.</p>
                 </div>
                 
                 <div className={styles.sponsor2}>
-                    <img src="/LOGO4.png" />
+                    <img src="./LOGO4.png" alt="" />
                     <span></span>
                     <p>RW Smith had provide our FTC teams with generous funding to register and compete state wide. They have been with us for 2 consecutive years.</p>
                 </div>
@@ -47,48 +47,13 @@ export function Sponsors() {
         </div>
     </>);
 }
-//<img className={styles.sponsorDivider} src="/scrimmage.jpg" alt="testing the bot"/>
-//<img className={styles.sponsorDivider} src="/work.jpg" alt="in the work space"/>
-//
 
 /*
-
-        <div className = "divider-parent">
-            <img className = "divider" src = "assets/CR_FLL_Scrimmage-261.png">
-            <img className = "divider" src = "assets/IMG-4465.jpg">
-        </div>
-
-        <div className = "body-strap">
-            <p>
-                Sponsors are an integral part of CircuitRunners Robotics.
-                We cannot compete without their generous support in funding, tools, and volunteering.
-            </p>
-        </div>
-
-        <div className = "sponsors">
-            <div className = "sponsor-1">
-                <img src = "assets/Foundation Logo.png">
-                <span></span>
-                <p>The Wheeler Magnet Foundation has provided a location for our 3 competition teams to work and has been a staple sponsor of CicuitRunners Robotics since our rookie year in 2002.</p>
-            </div>
-            
-            <div className = "sponsor-2">
-                <img src = "assets/LOGO 4.png">
-                <span></span>
-                <p>RW Smith had provide our FTC teams with generous funding to register and compete state wide. They have been with us for 2 consecutive years.</p>
-            </div>
-        </div>
-
-        <div className = "body-strap-2">
-            <p>
-                Want your logo added to this site? Our jerseys? Our robot, even? Become a sponsor below!
-            </p>
-        </div>
-
-        <div className = "buttons">
-
-            <a href = "https://drive.google.com/file/d/1QsJbfrd5cM3CQTODKQ2u-yyq71u_p_DH/view?usp=sharing"><button><span>Learn more!</span></button></a>
-            <a href = "https://www.paypal.com/fundraiser/charity/2380684"><button><span>Donate!</span></button></a>
-
-        </div>
-*/ 
+<img src="https://drive.google.com/uc?id=15PjYlgVXK2nYHfHV964F2Ofa2oxvXhkH" className="rellax" data-rellax-speed="-15" />
+            <img src="https://drive.google.com/uc?id=1LcPPAson-vxFxizPHgt5tmB1b54w1dZS" className="rellax" data-rellax-speed="-25" />
+            <img src="https://drive.google.com/uc?id=1gyOS0blvwHvCp3jgT-TYCYe1bzsN43w6" className="rellax" data-rellax-speed="-3" />
+            <img src="https://drive.google.com/uc?id=1MXicPfNIoFyESPbx0iX5339aND4dijzX" className="rellax" data-rellax-speed="20" />
+            <img src="https://drive.google.com/uc?id=1Coj77Obj6SrrC3m6xnvCdG1U5RQkXj2-" className="rellax" data-rellax-speed="1" />
+            <img src="https://drive.google.com/uc?id=1LcPPAson-vxFxizPHgt5tmB1b54w1dZS" className="rellax" data-rellax-speed="-50" />
+            <img src="https://drive.google.com/uc?id=1EXvHK1bS-Zt3VZ0D0hDO26ByuMKcRSCN"  className="rellax" data-rellax-speed="-11" />
+*/

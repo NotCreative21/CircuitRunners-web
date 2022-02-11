@@ -5,13 +5,13 @@ import styles from '../styles/components.module.scss';
 
 const slideImages = [
   {
-    url: '/slides/slide1.png',
+    url: './slide1.png',
   },
   {
-    url: '/slides/slide2.png',
+    url: './slide2.png',
   },
   {
-    url: '/slides/slide3.png',
+    url: './slide3.png',
   },
 ];
 
