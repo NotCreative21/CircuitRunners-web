@@ -17,8 +17,8 @@
 	flex-direction: row;
 	align-items: center;
 	width: 100%;
-	font-size: 19px;
-	font-weight: bold;
+	font-size: 14px;
+	font-weight: 100;
 	background-color: rgba(0, 0, 0, 0.542);
 	a {
 		font-family: "Futura", sans-serif;
@@ -26,4 +26,21 @@
 		color: white;
 		text-decoration: none;
 	}
+	a::after {
+		color: #ff0000;
+		transition: transform 0.4s;
+	}
+	a:hover::after {
+		background: #4df4e4;
+		transition: transform 0.4s;
+	}
+	img {
+		max-height: 25px;
+		padding-left: 2%;
+		padding-right: 1%;
+	}
+}
+
+* {
+	scroll-behavior: smooth;
 }
