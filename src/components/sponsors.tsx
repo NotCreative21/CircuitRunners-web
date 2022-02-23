@@ -40,10 +40,8 @@ export function Sponsors() {
                 </div>
 
                 <div className={styles.sponsorButtons}>
-
                     <a href = "https://drive.google.com/file/d/1QsJbfrd5cM3CQTODKQ2u-yyq71u_p_DH/view?usp=sharing"><button><span>Learn more!</span></button></a>
                     <a href = "https://www.paypal.com/fundraiser/charity/2380684"><button><span>Donate!</span></button></a>
-
                 </div>
             </div>
         </div>);

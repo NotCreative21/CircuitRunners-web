@@ -21,7 +21,7 @@ export function About() {
         <div className={styles.main}>
             <div className={styles.decalPos1}> 
                 <img
-                    src="/CircuitW1.svg"
+                    src="./CircuitW1.svg"
                     alt=""
                     className={styles.parallaxDecals}
                     style={{
@@ -31,7 +31,7 @@ export function About() {
             </div>
             <div className={styles.decalPos2}> 
                 <img
-                    src="/CircuitW2.svg"
+                    src="./CircuitW2.svg"
                     alt=""
                     className={styles.parallaxDecals}
                     style={{
@@ -41,7 +41,7 @@ export function About() {
             </div>
             <div className={styles.decalPos3}> 
                 <img
-                    src="/CircuitW3.svg"
+                    src="./CircuitW3.svg"
                     alt=""
                     className={styles.parallaxDecals}
                     style={{
@@ -51,7 +51,7 @@ export function About() {
             </div>
             <div className={styles.decalPos4}> 
                 <img
-                    src="/CircuitW4.svg"
+                    src="./CircuitW4.svg"
                     alt=""
                     className={styles.parallaxDecals}
                     style={{
@@ -61,7 +61,7 @@ export function About() {
             </div>
             <div className={styles.decalPos5}> 
                 <img
-                    src="/CircuitW5.svg"
+                    src="./CircuitW5.svg"
                     alt=""
                     className={styles.parallaxDecals}
                     style={{
@@ -71,7 +71,7 @@ export function About() {
             </div>
             <div className={styles.decalPos6}> 
                 <img
-                    src="/CircuitW2.svg"
+                    src="./CircuitW2.svg"
                     alt=""
                     className={styles.parallaxDecals}
                     style={{
@@ -81,7 +81,7 @@ export function About() {
             </div>
             <div className={styles.decalPos7}> 
                 <img
-                    src="/RunningMan.png"
+                    src="./RunningMan.png"
                     alt=""
                     className={styles.parallaxDecals}
                     style={{
@@ -102,7 +102,7 @@ export function About() {
                     style={{
                         transform: `translateY(${offset * 4}px)`,
                     }}>
-                        Our Teams
+                        About
                 </div>
                 <div className={styles.titleFTC}
                     style={{

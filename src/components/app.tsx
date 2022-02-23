@@ -3,7 +3,7 @@ import { Navbar } from "./navbar";
 //
 import { Home } 		from "./home";
 import { About } 		from "./about";
-import { Brand } 		from "./brand";
+import { Outreach }		from "./outreach";
 import { Sponsors } 	from "./sponsors";
 
 function App() {
@@ -13,12 +13,11 @@ function App() {
 			<Routes>
 				<Route path="/"      		element={<Home 		/>}/>
 				<Route path="/about" 		element={<About 	/>}/>
-				<Route path="/Brand" 		element={<Brand 	/>}/>
+				<Route path="/Outreach"		element={<Outreach 	/>}/>
 				<Route path="/Sponsors" 	element={<Sponsors 	/>}/>
 			</Routes>
 		</BrowserRouter>
 	</>);
 }
 
-//ReactDOM.render(<App/>, document.getElementById("root"));
 export default App;

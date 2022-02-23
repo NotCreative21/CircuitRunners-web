@@ -10,7 +10,7 @@ export function Navbar() {
 
             <Link to="/">           Home        </Link>
             <Link to="/about">      About       </Link>
-            <Link to="/brand">      Brand       </Link>
+            <Link to="/outreach">   Outreach       </Link>
             <Link to="/sponsors">   Sponsors    </Link>
         </div>
     );
