@@ -6,9 +6,6 @@ export function Sponsors() {
 	return (
 		<div className={styles.main}>
 			<div className={styles.sponsorsBg}>
-				<div className={styles.sponsorsHeader}>
-					<h1>SPONSORS</h1>
-				</div>
 				<div className={styles.dividerParent}>
 					<img
 						src="./scrimmage.jpg"

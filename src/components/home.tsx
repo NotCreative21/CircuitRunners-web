@@ -8,11 +8,9 @@ export function Home() {
 	return (
 		<div className={styles.main}>
 			<div className={styles.slides}>
-				<div className={styles.slideshow}>
-                    <video muted loop autoPlay style={{width: "100%"}}>
-                        <source src="./cr_hype.mp4" />
-                    </video>
-				</div>
+				<video muted loop autoPlay style={{width: "100%"}}>
+					<source src="./cr_hype.mp4" />
+				</video>
 				<div className={styles.center}>
 					<div className={styles.slogan}>
 						FROM <div className={styles.cyan}>POTENTIAL</div> TO{" "}

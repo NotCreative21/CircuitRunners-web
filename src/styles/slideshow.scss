@@ -3,12 +3,13 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 60vh;
+    height: 40vw;
+	max-height: 650px;
     background-position: center bottom;
 }
 
 .eachSlide span {
-    z-index: 10000;
+    z-index: 2;
     padding: 20px;
     font-size: 20px;
     background: #efefef;

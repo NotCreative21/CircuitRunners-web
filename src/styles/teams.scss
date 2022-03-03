@@ -8,26 +8,32 @@
     position: absolute;
 }
 
+.parallaxWrapper {
+	overflow-x: hidden;
+	width: 100vw;
+	align-items: center;
+}
+
 .decalPos1 {
-    transform: translateY(28em) translateX(-46em);
+    transform: translateY(28em) translateX(-25vw);
 }
 .decalPos2 {
-    transform: translateY(4em) translateX(-12em);
+    transform: translateY(4em) translateX(-12vw);
 }
 .decalPos3 {
-    transform: translateY(44em) translateX(16em);
+    transform: translateY(44em) translateX(16vw);
 }
 .decalPos4 {
-    transform: translateY(24em) translateX(-6em);
+    transform: translateY(24em) translateX(-6vw);
 }
 .decalPos5 {
-    transform: translateY(36em) translateX(-24em);
+    transform: translateY(36em) translateX(24vw);
 }
 .decalPos6 {
     transform: translateY(-10em);
 }
 .decalPos7 {
-    transform: translateY(12em) translateX(-46em);
+    transform: translateY(12em) translateX(-46vw);
 }
 .grid1x3 {
     display: grid;
@@ -38,14 +44,12 @@
 }
 
 .teamBox {
-    width: 30%;
+	max-width: 600px;
+	min-width: 400px;
     font-size: 24px;
     z-index: 0;
     padding-right: 0.3em;
     padding-left: 0.3em;
-    img {
-        width: 75%;
-    }
 }
 
 .teamContainer {

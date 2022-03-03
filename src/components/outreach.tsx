@@ -90,14 +90,15 @@ export function Outreach() {
 	};
 	return (
 		<div className={styles.main}>
-			<div className={styles.decalPos1}>
+					<div className={styles.decalPos1}>
+			<div className={styles.parallaxWrapper}>
 				<img
 					src="./decals/CircuitW1.svg"
 					alt=""
 					className={styles.parallaxDecals}
 					style={{
 						transform: `translateY(${offset * 1.3}px)`,
-						transition: "130ms",
+						transition: "130ms"
 					}}
 				/>
 			</div>
@@ -108,7 +109,7 @@ export function Outreach() {
 					className={styles.parallaxDecals}
 					style={{
 						transform: `translateY(${offset * 0.8}px)`,
-						transition: "210ms",
+						transition: "210ms"
 					}}
 				/>
 			</div>
@@ -119,7 +120,7 @@ export function Outreach() {
 					className={styles.parallaxDecals}
 					style={{
 						transform: `translateY(${offset * 0.5}px)`,
-						transition: "150ms",
+						transition: "150ms"
 					}}
 				/>
 			</div>
@@ -130,7 +131,7 @@ export function Outreach() {
 					className={styles.parallaxDecals}
 					style={{
 						transform: `translateY(${offset * 1.1}px)`,
-						transition: "100ms",
+						transition: "100ms"
 					}}
 				/>
 			</div>
@@ -141,7 +142,7 @@ export function Outreach() {
 					className={styles.parallaxDecals}
 					style={{
 						transform: `translateY(${offset * 1.4}px)`,
-						transition: "180ms",
+						transition: "180ms"
 					}}
 				/>
 			</div>
@@ -152,7 +153,7 @@ export function Outreach() {
 					className={styles.parallaxDecals}
 					style={{
 						transform: `translateY(${offset * 0.4}px)`,
-						transition: "120ms",
+						transition: "120ms"
 					}}
 				/>
 			</div>
@@ -163,9 +164,10 @@ export function Outreach() {
 					className={styles.parallaxDecals}
 					style={{
 						transform: `translateY(${offset * 0.7}px)`,
-						transition: "200ms",
+						transition: "200ms"
 					}}
 				/>
+			</div>
 			</div>
 			<div className={styles.teamCenter}>
 				<div className={styles.teamContainer}>
