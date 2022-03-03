@@ -26,8 +26,8 @@ export function Outreach() {
 				part outside of the competition field!
 			</div>
 			<div
-				className={styles.parallax}
-				style={{ backgroundImage: `url(./outreach1.jpg)` }}
+				className={`${styles.parallax} ${styles.outreach_images}`}
+				style={{ backgroundImage: `url(./outreach/outreach1.jpg)` }}
 			>
 				<div className={styles.floating_box} />
 			</div>
@@ -39,7 +39,7 @@ export function Outreach() {
 			</div>
 			<div
 				className={`${styles.parallax} ${styles.outreach_images}`}
-				style={{ backgroundImage: `url(./outreach2.jpg)` }}
+				style={{ backgroundImage: `url(./outreach/outreach2.jpg)` }}
 			/>
 			<div className={styles.white_text}>
 				We host multiple FIRST Lego League competitions for local
@@ -51,8 +51,8 @@ export function Outreach() {
 				more about STEM in general.
 			</div>
 			<div
-				className={styles.parallax}
-				style={{ backgroundImage: `url(./outreach3.jpg)` }}
+				className={`${styles.parallax} ${styles.outreach_images}`}
+				style={{ backgroundImage: `url(./outreach/outreach3.jpg)` }}
 			/>
 			<div className={styles.white_text}>
 				Our Advocacy team works to advance STEAM education and equity
@@ -63,7 +63,7 @@ export function Outreach() {
 			</div>
 			<figure className={styles.outreach_director}>
 				<img
-					src="./jonah.jpeg"
+					src="./outreach/jonah.jpeg"
 					alt="Jonah Isaza, our outreach director"
 					className={styles.outreach_director_pic}
 				/>

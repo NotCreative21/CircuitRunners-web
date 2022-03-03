@@ -109,51 +109,79 @@ export function Teams() {
 		<div className={styles.main}>
 			<div className={styles.decalPos1}>
 				<img
-					src="./CircuitW1.svg"
+					src="./decals/CircuitW1.svg"
 					alt=""
 					className={styles.parallaxDecals}
+                    style={{
+                        transform: `translateY(${offset * 1.3}px)`,
+                        transition: "130ms"
+                    }}
 				/>
 			</div>
 			<div className={styles.decalPos2}>
 				<img
-					src="./CircuitW2.svg"
+					src="./decals/CircuitW2.svg"
 					alt=""
 					className={styles.parallaxDecals}
+                    style={{
+                        transform: `translateY(${offset * 0.8}px)`,
+                        transition: "210ms"
+                    }}
 				/>
 			</div>
 			<div className={styles.decalPos3}>
 				<img
-					src="./CircuitW3.svg"
+					src="./decals/CircuitW3.svg"
 					alt=""
 					className={styles.parallaxDecals}
+                    style={{
+                        transform: `translateY(${offset * 0.5}px)`,
+                        transition: "150ms"
+                    }}
 				/>
 			</div>
 			<div className={styles.decalPos4}>
 				<img
-					src="./CircuitW4.svg"
+					src="./decals/CircuitW4.svg"
 					alt=""
 					className={styles.parallaxDecals}
+                    style={{
+                        transform: `translateY(${offset * 1.1}px)`,
+                        transition: "50ms"
+                    }}
 				/>
 			</div>
 			<div className={styles.decalPos5}>
 				<img
-					src="./CircuitW5.svg"
+					src="./decals/CircuitW5.svg"
 					alt=""
 					className={styles.parallaxDecals}
+                    style={{
+                        transform: `translateY(${offset * 1.4}px)`,
+                        transition: "180ms"
+                    }}
 				/>
 			</div>
 			<div className={styles.decalPos6}>
 				<img
-					src="./CircuitW2.svg"
+					src="./decals/CircuitW2.svg"
 					alt=""
 					className={styles.parallaxDecals}
+                    style={{
+                        transform: `translateY(${offset * 0.4}px)`,
+                        transition: "120ms"
+                    }}
 				/>
 			</div>
 			<div className={styles.decalPos7}>
 				<img
-					src="./RunningMan.png"
+					src="./decals/RunningMan.png"
 					alt=""
 					className={styles.parallaxDecals}
+                    style={{
+                        transform: `translateY(${offset * 0.7}px)`,
+                        transition: "200ms"
+                    }}
 				/>
 			</div>
 			<div className={styles.teamCenter}>
