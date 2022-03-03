@@ -1,16 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 @import "./slideshow.scss";
 @import "./pages.scss";
 @import "./sponsors.scss";
 @import "./teams.scss";
 @import "./outreach.scss";
-@font-face {
-    font-family: 'cr-bold';
-    src: url('./futurab.ttf');
-}
-@font-face {
-    font-family: 'cr-book';
-    src: url('./futurab.ttf');
-}
 
 .navbar {
 	overflow: hidden;
@@ -21,6 +15,8 @@
 	font-size: 20px;
 	font-weight: 100;
 	background-color: rgba(0, 0, 0, 0.542);
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 	a {
 		position: relative;
 		color: white;
@@ -55,4 +51,5 @@
 
 * {
 	scroll-behavior: smooth;
+	font-family: 'Montserrat', sans-serif;
 }

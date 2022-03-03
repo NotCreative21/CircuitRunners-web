@@ -17,10 +17,6 @@
     }
 }
 
-* {
-    font-family: "Futura", sans-serif;
-}
-
 a {
     text-decoration: none;
 }
@@ -47,7 +43,8 @@ body {
 }
 
 .slogan {
-    margin-top: -30vh;
+    font-weight: bold;
+    margin-top: -35vh;
     position: absolute;
     animation:  animated-text 1s steps(100,end) 1s 1 normal both,
                 animated-cursor 600ms steps(100,end) infinite;
@@ -55,7 +52,7 @@ body {
 
 @keyframes animated-text{
     from{width: 0}
-    to{width: 580px}
+    to{width: 610px}
 }
 
 @keyframes animated-cursor{
@@ -74,8 +71,11 @@ body {
 }
 
 .container {
-    transform: translateY(-22vh);
+    opacity: 0.7;
+    position: absolute;
+    transform: translateY(-28vh) translateX(44.1vw);
     overflow: hidden;
+    transform-origin: center;
 }
 
 .hidden {
@@ -97,7 +97,8 @@ body {
 }
 
 .slides {
-    height: 60vh;
+    transform: translateX(-8%);
+    width: 120%;
 }
 
 .text {
@@ -115,5 +116,10 @@ body {
 }
 
 .slideshow {
+    width: 100vw;
+    margin: auto;
     opacity: 0.5;
+    overflow: hidden;
+    z-index: -10;
+    height: 70vh;
 }

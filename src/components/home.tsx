@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/index.scss";
 // @ts-expect-error
 import styles from "../styles/components.module.scss";
-import Slideshow from "./slideshow";
 import "react-slideshow-image/dist/styles.css";
 
 export function Home() {
@@ -10,7 +9,9 @@ export function Home() {
 		<div className={styles.main}>
 			<div className={styles.slides}>
 				<div className={styles.slideshow}>
-					<Slideshow />
+                    <video muted loop autoPlay>
+                        <source src="./cr_hype.mp4" type='video/mp4' style={{width: "400px"}}/>
+                    </video>
 				</div>
 				<div className={styles.center}>
 					<div className={styles.slogan}>

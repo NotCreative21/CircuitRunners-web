@@ -147,7 +147,7 @@ export function Teams() {
 					className={styles.parallaxDecals}
                     style={{
                         transform: `translateY(${offset * 1.1}px)`,
-                        transition: "50ms"
+                        transition: "100ms"
                     }}
 				/>
 			</div>
