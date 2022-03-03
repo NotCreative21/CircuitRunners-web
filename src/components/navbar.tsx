@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 import styles from "../styles/components.module.scss";
 
 export function Navbar() {
-    return(
-        <div className={styles.navbar}>
-            <img src="./logo.png" alt="logo" />
+	return (
+		<div className={styles.navbar}>
+			<img src="./logo.png" alt="logo" />
 
-            <Link to="/">           Home        </Link>
-            <Link to="/about">      About       </Link>
-            <Link to="/outreach">   Outreach       </Link>
-            <Link to="/sponsors">   Sponsors    </Link>
-        </div>
-    );
+			<Link to="/"> HOME </Link>
+			<Link to="/teams"> TEAMS </Link>
+			<Link to="/outreach"> OUTREACH </Link>
+			<Link to="/sponsors"> SPONSORS </Link>
+		</div>
+	);
 }

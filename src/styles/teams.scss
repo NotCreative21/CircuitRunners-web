@@ -1,0 +1,66 @@
+.teamCenter {
+    justify-content: center;
+}
+
+.parallaxDecals {
+    max-height: 8em;
+    opacity: .5;
+    position: absolute;
+}
+
+.decalPos1 {
+    transform: translateY(28em) translateX(-46em);
+}
+.decalPos2 {
+    transform: translateY(4em) translateX(-12em);
+}
+.decalPos3 {
+    transform: translateY(44em) translateX(16em);
+}
+.decalPos4 {
+    transform: translateY(24em) translateX(-6em);
+}
+.decalPos5 {
+    transform: translateY(36em) translateX(-24em);
+}
+.decalPos6 {
+    transform: translateY(-10em);
+}
+.decalPos7 {
+    transform: translateY(12em) translateX(-46em);
+}
+.grid1x3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    width: 80%;
+    margin: auto;
+}
+
+.teamBox {
+    width: 30%;
+    font-size: 24px;
+    z-index: 0;
+    img {
+        width: 75%;
+    }
+}
+
+.teamContainer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.teamTitle {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 5%;
+}
+
+.slideshow {
+    opacity: 1;
+    width: 92%;
+}
