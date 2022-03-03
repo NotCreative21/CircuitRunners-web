@@ -9,8 +9,8 @@ export function Home() {
 		<div className={styles.main}>
 			<div className={styles.slides}>
 				<div className={styles.slideshow}>
-                    <video muted loop autoPlay>
-                        <source src="./cr_hype.mp4" type='video/mp4' style={{width: "400px"}}/>
+                    <video muted loop autoPlay style={{width: "100%"}}>
+                        <source src="./cr_hype.mp4" />
                     </video>
 				</div>
 				<div className={styles.center}>
