@@ -68,7 +68,7 @@ export function Home() {
                         <br />
                         To support, please visit our {"  "}
                         <a href="https://www.gofundme.com/f/send-ftc-1002-to-the-world-championships">
-                            <img style={{height: "2.2em"}}src="./gofundmelogo.png" alt="logo" />
+                            <img style={{height: "2.2em"}}src="./logos/gofundmelogo.png" alt="logo" />
                         </a>.
                     </div>
                 </div>
