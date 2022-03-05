@@ -97,8 +97,7 @@ export function Outreach() {
 					alt=""
 					className={styles.parallaxDecals}
 					style={{
-						transform: `translateY(${offset * 1.3}px)`,
-						transition: "130ms"
+						transform: `translateY(${offset * 0.7}px)`
 					}}
 				/>
 			</div>
@@ -108,8 +107,7 @@ export function Outreach() {
 					alt=""
 					className={styles.parallaxDecals}
 					style={{
-						transform: `translateY(${offset * 0.8}px)`,
-						transition: "210ms"
+						transform: `translateY(${offset * 0.7}px)`
 					}}
 				/>
 			</div>
@@ -119,8 +117,7 @@ export function Outreach() {
 					alt=""
 					className={styles.parallaxDecals}
 					style={{
-						transform: `translateY(${offset * 0.5}px)`,
-						transition: "150ms"
+						transform: `translateY(${offset * 0.7}px)`
 					}}
 				/>
 			</div>
@@ -130,8 +127,7 @@ export function Outreach() {
 					alt=""
 					className={styles.parallaxDecals}
 					style={{
-						transform: `translateY(${offset * 1.1}px)`,
-						transition: "100ms"
+						transform: `translateY(${offset * 0.7}px)`
 					}}
 				/>
 			</div>
@@ -141,8 +137,7 @@ export function Outreach() {
 					alt=""
 					className={styles.parallaxDecals}
 					style={{
-						transform: `translateY(${offset * 1.4}px)`,
-						transition: "180ms"
+						transform: `translateY(${offset * 0.7}px)`
 					}}
 				/>
 			</div>
@@ -152,8 +147,7 @@ export function Outreach() {
 					alt=""
 					className={styles.parallaxDecals}
 					style={{
-						transform: `translateY(${offset * 0.4}px)`,
-						transition: "120ms"
+						transform: `translateY(${offset * 0.7}px)`
 					}}
 				/>
 			</div>
@@ -163,8 +157,7 @@ export function Outreach() {
 					alt=""
 					className={styles.parallaxDecals}
 					style={{
-						transform: `translateY(${offset * 0.7}px)`,
-						transition: "200ms"
+						transform: `translateY(${offset * 0.7}px)`
 					}}
 				/>
 			</div>

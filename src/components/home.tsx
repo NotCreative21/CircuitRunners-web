@@ -27,7 +27,25 @@ export function Home() {
 
 			<div className={styles.text}>
 				<div className={styles.homeText}>
-                    <div className={styles.columns}> 
+                        <div className={styles.columnTitle}>
+                            UPDATES
+                        </div>
+                        FTC 1002 recently competed in FTC State Championships and won 
+                        the INSPIRE Award, an award that proves that they are an exemplary 
+                        team that embodies what it means to be a part of FIRST. Because 
+                        of this remarkable achievement, FTC 1002 has qualified for World 
+                        Championships in Houston from April 20th-23rd. Also, Mr. Berwanger 
+                        won the Compass Award for being an amazing teacher sponsor and mentor!
+                        Going to Worlds is not cheap, as expenses are upwards of 
+                        $20,000. Because of this, we need your help to get there. Please 
+                        consider donating to the GoFundMe below to directly help FTC 1002
+                        in their pursuit of becoming world champs!
+                        <br />
+                        <br />
+                        To support, please visit our {"  "}
+                        <a href="https://www.gofundme.com/f/send-ftc-1002-to-the-world-championships">
+                            <img style={{height: "2.2em"}}src="./gofundmelogo.png" alt="logo" />
+                        </a>.
                         <div className={styles.columnTitle}>
                             INFO
                         </div>
@@ -49,28 +67,6 @@ export function Home() {
                         To learn more about our club see our{" "}
                         <a href="./teams">teams</a> page.
                         <br />
-                    </div>
-                    <div className={styles.columns}> 
-                        <div className={styles.columnTitle}>
-                            UPDATES
-                        </div>
-                        FTC 1002 recently competed in FTC State Championships and won 
-                        the INSPIRE Award, an award that proves that they are an exemplary 
-                        team that embodies what it means to be a part of FIRST. Because 
-                        of this remarkable achievement, FTC 1002 has qualified for World 
-                        Championships in Houston from April 20th-23rd. Also, Mr. Berwanger 
-                        won the Compass Award for being an amazing teacher sponsor and mentor!
-                        Going to Worlds is not cheap, as expenses are upwards of 
-                        $20,000. Because of this, we need your help to get there. Please 
-                        consider donating to the GoFundMe below to directly help FTC 1002
-                        in their pursuit of becoming world champs!
-                        <br />
-                        <br />
-                        To support, please visit our {"  "}
-                        <a href="https://www.gofundme.com/f/send-ftc-1002-to-the-world-championships">
-                            <img style={{height: "2.2em"}}src="./gofundmelogo.png" alt="logo" />
-                        </a>.
-                    </div>
                 </div>
 			</div>
 			<div className="footer">© 2022 CircuitRunners Robotics Inc.</div>
