@@ -34,7 +34,7 @@ body {
     border-right: solid 3px rgba(0,255,0,.5);
     white-space: nowrap;
     overflow: hidden;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
 .center {
@@ -43,8 +43,8 @@ body {
 }
 
 .slogan {
-    font-weight: bold;
-    margin-top: -30vw;
+    font-weight: bolder;
+    margin-top: -51vw;
     position: absolute;
     animation:  animated-text 1s steps(100,end) 1s 1 normal both,
                 animated-cursor 600ms steps(100,end) infinite;
@@ -52,7 +52,7 @@ body {
 
 @keyframes animated-text{
     from{width: 0}
-    to{width: 39vw}
+    to{width: 47vw}
 }
 
 @keyframes animated-cursor{
@@ -72,7 +72,7 @@ body {
 
 .container {
     position: absolute;
-    transform: translateY(-27vw);
+    transform: translateY(-47vw);
 	left: 31.4vw;
     overflow: hidden;
 }
@@ -114,7 +114,8 @@ body {
 
 .homeText {
     text-align: left;
-    max-width: 900px;
+    max-width: 1200px;
+	font-size: 24px;
 }
 
 .columns {

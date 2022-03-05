@@ -6,12 +6,15 @@
     max-height: 8em;
     opacity: .5;
     position: absolute;
+	transition: 400ms;
+	z-index: -3;
 }
 
 .parallaxWrapper {
 	overflow-x: hidden;
 	width: 100vw;
 	align-items: center;
+	z-index: -1;
 }
 
 .decalPos1 {
@@ -27,7 +30,7 @@
     transform: translateY(24em) translateX(-6vw);
 }
 .decalPos5 {
-    transform: translateY(36em) translateX(24vw);
+    transform: translateY(36em) translateX(6vw);
 }
 .decalPos6 {
     transform: translateY(-10em);

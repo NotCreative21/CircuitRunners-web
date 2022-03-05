@@ -90,84 +90,77 @@ export function Outreach() {
 	};
 	return (
 		<div className={styles.main}>
-					<div className={styles.decalPos1}>
-			<div className={styles.parallaxWrapper}>
-				<img
-					src="./decals/CircuitW1.svg"
-					alt=""
-					className={styles.parallaxDecals}
-					style={{
-						transform: `translateY(${offset * 1.3}px)`,
-						transition: "130ms"
-					}}
-				/>
-			</div>
-			<div className={styles.decalPos2}>
-				<img
-					src="./decals/CircuitW2.svg"
-					alt=""
-					className={styles.parallaxDecals}
-					style={{
-						transform: `translateY(${offset * 0.8}px)`,
-						transition: "210ms"
-					}}
-				/>
-			</div>
-			<div className={styles.decalPos3}>
-				<img
-					src="./decals/CircuitW3.svg"
-					alt=""
-					className={styles.parallaxDecals}
-					style={{
-						transform: `translateY(${offset * 0.5}px)`,
-						transition: "150ms"
-					}}
-				/>
-			</div>
-			<div className={styles.decalPos4}>
-				<img
-					src="./decals/CircuitW4.svg"
-					alt=""
-					className={styles.parallaxDecals}
-					style={{
-						transform: `translateY(${offset * 1.1}px)`,
-						transition: "100ms"
-					}}
-				/>
-			</div>
-			<div className={styles.decalPos5}>
-				<img
-					src="./decals/CircuitW5.svg"
-					alt=""
-					className={styles.parallaxDecals}
-					style={{
-						transform: `translateY(${offset * 1.4}px)`,
-						transition: "180ms"
-					}}
-				/>
-			</div>
-			<div className={styles.decalPos6}>
-				<img
-					src="./decals/CircuitW2.svg"
-					alt=""
-					className={styles.parallaxDecals}
-					style={{
-						transform: `translateY(${offset * 0.4}px)`,
-						transition: "120ms"
-					}}
-				/>
-			</div>
-			<div className={styles.decalPos7}>
-				<img
-					src="./decals/RunningMan.png"
-					alt=""
-					className={styles.parallaxDecals}
-					style={{
-						transform: `translateY(${offset * 0.7}px)`,
-						transition: "200ms"
-					}}
-				/>
-			</div>
+			<div className={styles.decalPos1}>
+				<div className={styles.parallaxWrapper}>
+					<img
+						src="./decals/CircuitW1.svg"
+						alt=""
+						className={styles.parallaxDecals}
+						style={{
+							transform: `translateY(${offset * 0.7}px)`,
+						}}
+					/>
+				</div>
+				<div className={styles.decalPos2}>
+					<img
+						src="./decals/CircuitW2.svg"
+						alt=""
+						className={styles.parallaxDecals}
+						style={{
+							transform: `translateY(${offset * 0.7}px)`,
+						}}
+					/>
+				</div>
+				<div className={styles.decalPos3}>
+					<img
+						src="./decals/CircuitW3.svg"
+						alt=""
+						className={styles.parallaxDecals}
+						style={{
+							transform: `translateY(${offset * 0.7}px)`,
+						}}
+					/>
+				</div>
+				<div className={styles.decalPos4}>
+					<img
+						src="./decals/CircuitW4.svg"
+						alt=""
+						className={styles.parallaxDecals}
+						style={{
+							transform: `translateY(${offset * 0.7}px)`,
+						}}
+					/>
+				</div>
+				<div className={styles.decalPos5}>
+					<img
+						src="./decals/CircuitW5.svg"
+						alt=""
+						className={styles.parallaxDecals}
+						style={{
+							transform: `translateY(${offset * 0.7}px)`,
+						}}
+					/>
+				</div>
+				<div className={styles.decalPos6}>
+					<img
+						src="./decals/CircuitW2.svg"
+						alt=""
+						className={styles.parallaxDecals}
+						style={{
+							transform: `translateY(${offset * 0.7}px)`,
+						}}
+					/>
+				</div>
+				<div className={styles.decalPos7}>
+					<img
+						src="./decals/RunningMan.png"
+						alt=""
+						className={styles.parallaxDecals}
+						style={{
+							transform: `translateY(${offset * 0.7}px)`,
+						}}
+					/>
+				</div>
 			</div>
 			<div className={styles.teamCenter}>
 				<div className={styles.teamContainer}>
@@ -232,34 +225,42 @@ export function Outreach() {
 						<FLLSlideshow />
 					</div>
 				</div>
-			</div>
-			<button className={`${styles.button} ${styles.twitter}`}>
+				<div style={{ paddingBottom: "5vh" }} />
 				<a
 					href="https://twitter.com/circuitrunners"
 					rel="noreferrer"
 					target="_blank"
 				>
-					<img src="./twitter.png" alt="" />
+					<img
+						style={{ height: "7em", padding: "1em" }}
+						src="./logos/twitter.png"
+						alt=""
+					/>
 				</a>
-			</button>
-			<button className={`${styles.button} ${styles.facebook}`}>
 				<a
 					href="https://www.facebook.com/circuitrunners/"
 					rel="noreferrer"
 					target="_blank"
 				>
-					<img src="./facebook.png" alt="" />
+					<img
+						style={{ height: "7em", padding: "1em" }}
+						src="./logos/facebook.png"
+						alt=""
+					/>
 				</a>
-			</button>
-			<button className={`${styles.button} ${styles.instagram}`}>
 				<a
 					href="https://www.instagram.com/circuitrunners/?hl=en"
 					rel="noreferrer"
 					target="_blank"
 				>
-					<img src="./instagram.png" alt="" />
+					<img
+						style={{ height: "7em", padding: "1em" }}
+						src="./logos/instagram.png"
+						alt=""
+					/>
 				</a>
-			</button>
+			</div>
+			<div style={{ paddingBottom: "10vh" }} />
 		</div>
 	);
 }

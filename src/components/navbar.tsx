@@ -6,7 +6,7 @@ import styles from "../styles/components.module.scss";
 export function Navbar() {
 	return (
 		<div className={styles.navbar}>
-			<img src="./logo.png" alt="logo" />
+			<img src="./logos/logo.png" alt="logo" />
 
 			<Link to="/"> HOME </Link>
 			<Link to="/teams"> TEAMS </Link>
