@@ -115,7 +115,7 @@ body {
 .homeText {
     text-align: left;
     max-width: 1200px;
-	font-size: 24px;
+	font-size: 1vw;
 }
 
 .columns {
@@ -128,7 +128,7 @@ body {
 .columnTitle {
     padding-bottom: 1em;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.4vw;
     text-align: center;
     text-decoration: to-upper-case($string: "");
 }
