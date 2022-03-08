@@ -3,7 +3,9 @@
 }
 
 .parallaxDecals {
-    max-height: 8em;
+    width: 50vw;
+    height: 8em;
+    width: 8em;
     opacity: .5;
     position: absolute;
 	transition: 400ms;
@@ -18,25 +20,30 @@
 }
 
 .decalPos1 {
-    transform: translateY(28em) translateX(-25vw);
+    transform: translateY(48vw) translateX(-25vw);
 }
 .decalPos2 {
-    transform: translateY(4em) translateX(-12vw);
+    transform: translateY(50vw) translateX(-12vw);
+    width: 50vw;
 }
 .decalPos3 {
-    transform: translateY(44em) translateX(16vw);
+    transform: translateY(44vw) translateX(16vw);
+    width: 50vw;
 }
 .decalPos4 {
-    transform: translateY(24em) translateX(-6vw);
+    transform: translateY(74vw) translateX(-6vw);
+    width: 50vw;
 }
 .decalPos5 {
-    transform: translateY(36em) translateX(6vw);
+    transform: translateY(226vw) translateX(6vw);
+    width: 50vw;
 }
 .decalPos6 {
-    transform: translateY(-10em);
+    transform: translateY(-14vw);
+    width: 50vw;
 }
 .decalPos7 {
-    transform: translateY(12em) translateX(-46vw);
+    transform: translateY(120vw) translateX(-16vw);
 }
 .grid1x3 {
     display: grid;
@@ -48,8 +55,8 @@
 
 .teamBox {
 	max-width: 600px;
-	min-width: 400px;
-    font-size: 24px;
+	min-width: 40vw;
+    font-size: calc(4px + 1vw);
     z-index: 0;
     padding-right: 0.3em;
     padding-left: 0.3em;
@@ -66,7 +73,7 @@
 
 .teamTitle {
     font-weight: bolder;
-    font-size: 40px;
+    font-size: calc(10px + 1.4vw);
     transform: translateX(-5%);
     padding-bottom: 5%;
 }

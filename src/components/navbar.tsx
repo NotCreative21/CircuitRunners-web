@@ -14,12 +14,16 @@ export function Navbar() {
 	});
 	// determine which logo to use based on the page width
 	let image = find_logo();
+	let width = window.innerWidth;
 	// the proper way to do this is addEventListener('resize'), but that can lead to
 	// unnecessary rerendering unless a debounce function is added, but I am not good
 	// enough at react to do that so this should be good enough
 
-	// setDiemnsions is called to force react to rerender the page
+	// setDimensions is called to force react to rerender the page
 	setInterval(async () => {
+		// reduce amount of rerendering
+		if (width == window.innerWidth) { return; }
+		width = window.innerWidth;
 		image = find_logo();
 		setDimensions({
 			height: window.innerHeight,

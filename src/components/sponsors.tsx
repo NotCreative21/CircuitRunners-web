@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import styles from "../styles/components.module.scss";
 
 export function Sponsors() {
-	const [offset, setOffset] = useState(0);
+	const [_, setOffset] = useState(0);
 	useEffect(() => {
 		function handleScroll() {
 			setOffset(window.pageYOffset);
@@ -76,7 +76,7 @@ export function Sponsors() {
 			<div className={styles.sponsors}>
 				<div className={styles.sponsor1}>
 					<img src="./logos/FoundationLogo.png" alt="" />
-					<span></span>
+					<span />
 					<p>
 						The Wheeler Magnet Foundation has provided a location
 						for our 3 competition teams to work and has been a
@@ -84,10 +84,9 @@ export function Sponsors() {
 						rookie year in 2002.
 					</p>
 				</div>
-
 				<div className={styles.sponsor2}>
 					<img src="./logos/LOGO4.png" alt="" />
-					<span></span>
+					<span />
 					<p>
 						RW Smith had provide our FTC teams with generous funding
 						to register and compete state wide. They have been with
@@ -95,7 +94,6 @@ export function Sponsors() {
 					</p>
 				</div>
 			</div>
-
 			<div className={styles.bodyStrap}>
 				<p>
 					Want your logo added to this site? Our jerseys? Our robot,
@@ -106,7 +104,6 @@ export function Sponsors() {
 			<div className={styles.sponsorButtons}>
 				<a 
 					href="https://drive.google.com/file/d/1QsJbfrd5cM3CQTODKQ2u-yyq71u_p_DH/view?usp=sharing"
-					
 					rel="noreferrer"
 					target="_blank"
 				>

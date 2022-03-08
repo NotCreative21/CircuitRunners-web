@@ -18,6 +18,7 @@ export function Outreach() {
 			window.removeEventListener("scroll", handleScroll);
 		};
 	}, []);
+	let newOffset = (offset > 100) ? 100 : offset;
 	const MentoringImages = [
 		{
 			url: "./slides/outreachMentoring/1.jpg",
@@ -97,7 +98,7 @@ export function Outreach() {
 						alt=""
 						className={styles.parallaxDecals}
 						style={{
-							transform: `translateY(${offset * 0.7}px)`,
+							transform: `translateY(${newOffset * 0.7}px)`,
 						}}
 					/>
 				</div>
@@ -107,7 +108,7 @@ export function Outreach() {
 						alt=""
 						className={styles.parallaxDecals}
 						style={{
-							transform: `translateY(${offset * 0.7}px)`,
+							transform: `translateY(${newOffset * 0.7}px)`,
 						}}
 					/>
 				</div>
@@ -117,7 +118,7 @@ export function Outreach() {
 						alt=""
 						className={styles.parallaxDecals}
 						style={{
-							transform: `translateY(${offset * 0.7}px)`,
+							transform: `translateY(${newOffset * 0.7}px)`,
 						}}
 					/>
 				</div>
@@ -127,7 +128,7 @@ export function Outreach() {
 						alt=""
 						className={styles.parallaxDecals}
 						style={{
-							transform: `translateY(${offset * 0.7}px)`,
+							transform: `translateY(${newOffset * 0.7}px)`,
 						}}
 					/>
 				</div>
@@ -137,7 +138,7 @@ export function Outreach() {
 						alt=""
 						className={styles.parallaxDecals}
 						style={{
-							transform: `translateY(${offset * 0.7}px)`,
+							transform: `translateY(${newOffset * 0.7}px)`,
 						}}
 					/>
 				</div>
@@ -147,7 +148,7 @@ export function Outreach() {
 						alt=""
 						className={styles.parallaxDecals}
 						style={{
-							transform: `translateY(${offset * 0.7}px)`,
+							transform: `translateY(${newOffset * 0.7}px)`,
 						}}
 					/>
 				</div>
@@ -157,7 +158,7 @@ export function Outreach() {
 						alt=""
 						className={styles.parallaxDecals}
 						style={{
-							transform: `translateY(${offset * 0.7}px)`,
+							transform: `translateY(${newOffset * 0.7}px)`,
 						}}
 					/>
 				</div>
@@ -225,40 +226,34 @@ export function Outreach() {
 						<FLLSlideshow />
 					</div>
 				</div>
-				<div style={{ paddingBottom: "5vh" }} />
-				<a
-					href="https://twitter.com/circuitrunners"
-					rel="noreferrer"
-					target="_blank"
-				>
-					<img
-						style={{ height: "7em", padding: "1em" }}
-						src="./logos/twitter.png"
-						alt=""
-					/>
-				</a>
-				<a
-					href="https://www.facebook.com/circuitrunners/"
-					rel="noreferrer"
-					target="_blank"
-				>
-					<img
-						style={{ height: "7em", padding: "1em" }}
-						src="./logos/facebook.png"
-						alt=""
-					/>
-				</a>
-				<a
-					href="https://www.instagram.com/circuitrunners/?hl=en"
-					rel="noreferrer"
-					target="_blank"
-				>
-					<img
-						style={{ height: "7em", padding: "1em" }}
-						src="./logos/instagram.png"
-						alt=""
-					/>
-				</a>
+				<div className={styles.socialMediaButton}> 
+					<div style={{ paddingBottom: "5vh" }} />
+					<a
+						href="https://twitter.com/circuitrunners"
+						rel="noreferrer"
+						target="_blank"
+					>
+						<img src="./logos/twitter.png" alt="" />
+					</a>
+				</div> 
+				<div className={styles.socialMediaButton}>
+					<a
+						href="https://www.facebook.com/circuitrunners/"
+						rel="noreferrer"
+						target="_blank"
+					>
+						<img src="./logos/facebook.png" alt="" />
+					</a>
+				</div>
+				<div className={styles.socialMediaButton}>
+					<a
+						href="https://www.instagram.com/circuitrunners/?hl=en"
+						rel="noreferrer"
+						target="_blank"
+					>
+						<img src="./logos/instagram.png" alt="" />
+					</a>
+				</div>
 			</div>
 			<div style={{ paddingBottom: "10vh" }} />
 		</div>
