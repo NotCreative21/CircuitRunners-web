@@ -4,8 +4,8 @@
 
 .parallaxDecals {
     width: 50vw;
-    height: 8em;
-    width: 8em;
+    height: 20vw;
+    width: 20vw;
     opacity: .5;
     position: absolute;
 	transition: 400ms;
@@ -14,36 +14,35 @@
 
 .parallaxWrapper {
 	overflow-x: hidden;
-	width: 100vw;
 	align-items: center;
 	z-index: -1;
 }
 
 .decalPos1 {
-    transform: translateY(48vw) translateX(-25vw);
+    transform: translateY(8em);
 }
 .decalPos2 {
-    transform: translateY(50vw) translateX(-12vw);
-    width: 50vw;
+    transform: translateY(50vh) translateX(35vw);
+    width: 40vw;
 }
 .decalPos3 {
-    transform: translateY(44vw) translateX(16vw);
-    width: 50vw;
+    transform: translateY(8vh) translateX(22vw);
+    width: 35vw;
 }
 .decalPos4 {
-    transform: translateY(74vw) translateX(-6vw);
-    width: 50vw;
+    transform: translateY(60vh) translateX(-6vw);
+    width: 55vw;
 }
 .decalPos5 {
-    transform: translateY(226vw) translateX(6vw);
-    width: 50vw;
+    transform: translateY(80vh) translateX(12vw);
+    width: 23vw;
 }
 .decalPos6 {
-    transform: translateY(-14vw);
-    width: 50vw;
+    transform: translateY(14em);
+    width: 20vw;
 }
 .decalPos7 {
-    transform: translateY(120vw) translateX(-16vw);
+    transform: translateY(34em) translateX(-43vw);
 }
 .grid1x3 {
     display: grid;

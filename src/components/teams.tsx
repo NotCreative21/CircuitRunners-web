@@ -8,7 +8,12 @@ export function Teams() {
 
 	useEffect(() => {
 		function handleScroll() {
-			setOffset(window.pageYOffset);
+			// prevent scrolling from too far, otherwise the CircuitRunners decals
+			// will cause the page to scroll forever
+			let pageY = window.pageYOffset;
+			let outerY = window.outerHeight * 0.4;
+			let realOffset = (pageY > outerY) ? outerY : pageY;
+			setOffset(realOffset);
 		}
 
 		window.addEventListener("scroll", handleScroll);
@@ -196,15 +201,14 @@ export function Teams() {
 						>
 							FRC 1002
 						</div>
-						FRC, which stands for FIRST Robotics Competition, is a
-						challenge where teams design, build, and program
-						industrial-sized robots in a limited time frame. Teams
-						and their robots complete various challenges on the
-						field to score as many points as possible, all while
-						opposing teams are simultaneously trying to score more
-						points than them. It is an exciting and challenging
-						competition that students love. CircuitRunners Robotics
-						has 1 FRC team, FRC 1002.
+						The FIRST Robotics Competition is a robotics program that emphasizes
+						community action along with engaging students with science and
+						technology. FRC Teams create large robots around 30 inches a side to
+						accomplish various tasks in a robot game.
+						Each year, FRC 1002 participates in numerous events and championships in
+						the state and across the world, demonstrating our skill in and out of the eld.
+						The Chairman’s Award is awarded to the team that demonstrates that they
+						have spread STEAM and robotics within their local community and beyond.
 					</div>
 				</div>
 				<div className={styles.teamContainer}>
@@ -218,15 +222,47 @@ export function Teams() {
 						>
 							FTC 1002 & 11347
 						</div>
-						FTC, which stands for FIRST Tech Challenge, is a
-						competition where teams of up to 15 students compete in
-						an alliance format to score as many points as possible
-						via several objectives. FTC is an exciting and rigorous
-						competition that was so loved we created two teams.
+						The FIRST Technology Competition involves a robot no more than 18 inches side,
+						working against the clock to score points. Even before the game reveal, we work to teach
+						new recruits skills in computer assisted design, Java programming, and
+						mechanical engineering. When the game is revealed in October, we hit the ground
+						running.
+						Then come the competitions, beginning with friendly scrimmage matches with local
+						teams and evolving into high stakes showdowns in regionals and then in states. After
+						each meet, we take what we have learned from how the robot performed and hone our
+						robot just a little more.
 					</div>
 					<div className={styles.teamBox}>
 						<FtcSlideshow />
 					</div>
+				</div>
+								<div className={styles.socialMediaButton}> 
+					<div style={{ paddingBottom: "5vh" }} />
+					<a
+						href="https://twitter.com/circuitrunners"
+						rel="noreferrer"
+						target="_blank"
+					>
+						<img src="./logos/twitter.png" alt="" />
+					</a>
+				</div> 
+				<div className={styles.socialMediaButton}>
+					<a
+						href="https://www.facebook.com/circuitrunners/"
+						rel="noreferrer"
+						target="_blank"
+					>
+						<img src="./logos/facebook.png" alt="" />
+					</a>
+				</div>
+				<div className={styles.socialMediaButton}>
+					<a
+						href="https://www.instagram.com/circuitrunners/?hl=en"
+						rel="noreferrer"
+						target="_blank"
+					>
+						<img src="./logos/instagram.png" alt="" />
+					</a>
 				</div>
 			</div>
 		</div>

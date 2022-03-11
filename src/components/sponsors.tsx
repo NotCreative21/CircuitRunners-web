@@ -7,7 +7,12 @@ export function Sponsors() {
 	const [_, setOffset] = useState(0);
 	useEffect(() => {
 		function handleScroll() {
-			setOffset(window.pageYOffset);
+			// prevent scrolling from too far, otherwise the CircuitRunners decals
+			// will cause the page to scroll forever
+			let pageY = window.pageYOffset;
+			let outerY = window.outerHeight * 0.4;
+			let realOffset = (pageY > outerY) ? outerY : pageY;
+			setOffset(realOffset);
 		}
 
 		window.addEventListener("scroll", handleScroll);
@@ -63,8 +68,16 @@ export function Sponsors() {
 				</div>
 			</div>
 			<div className={styles.dividerParent}>
-				<img src="./scrimmage.jpg" className={styles.photos} alt="" />
-				<img src="./work.jpg" className={styles.photos} alt="" />
+				<img 
+					src="./scrimmage.jpg" 
+					className={styles.photos} 
+					alt="" 
+				/>
+				<img 
+					src="./work.jpg" 
+					className={styles.photos} 
+					alt="" 
+				/>
 			</div>
 			<div className={styles.bodyStrap}>
 				<p>
@@ -121,6 +134,34 @@ export function Sponsors() {
 					</button>
 				</a>
 			</div>
+				<div className={styles.socialMediaButton}> 
+					<div style={{ paddingBottom: "5vh" }} />
+					<a
+						href="https://twitter.com/circuitrunners"
+						rel="noreferrer"
+						target="_blank"
+					>
+						<img src="./logos/twitter.png" alt="" />
+					</a>
+				</div> 
+				<div className={styles.socialMediaButton}>
+					<a
+						href="https://www.facebook.com/circuitrunners/"
+						rel="noreferrer"
+						target="_blank"
+					>
+						<img src="./logos/facebook.png" alt="" />
+					</a>
+				</div>
+				<div className={styles.socialMediaButton}>
+					<a
+						href="https://www.instagram.com/circuitrunners/?hl=en"
+						rel="noreferrer"
+						target="_blank"
+					>
+						<img src="./logos/instagram.png" alt="" />
+					</a>
+				</div>
 		</div>
 	);
 }

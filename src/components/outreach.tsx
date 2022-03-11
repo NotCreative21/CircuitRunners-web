@@ -9,7 +9,12 @@ export function Outreach() {
 
 	useEffect(() => {
 		function handleScroll() {
-			setOffset(window.pageYOffset);
+			// prevent scrolling from too far, otherwise the CircuitRunners decals
+			// will cause the page to scroll forever
+			let pageY = window.pageYOffset;
+			let outerY = window.outerHeight * 0.4;
+			let realOffset = (pageY > outerY) ? outerY : pageY;
+			setOffset(realOffset);
 		}
 
 		window.addEventListener("scroll", handleScroll);
@@ -98,7 +103,7 @@ export function Outreach() {
 						alt=""
 						className={styles.parallaxDecals}
 						style={{
-							transform: `translateY(${newOffset * 0.7}px)`,
+							transform: `translateY(${newOffset * 0.8}px)`,
 						}}
 					/>
 				</div>
